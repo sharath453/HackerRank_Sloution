@@ -1,10 +1,5 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 class Result {
 
@@ -13,32 +8,28 @@ class Result {
      *
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
-
     public static void miniMaxSum(List<Integer> arr) {
-    // Write your code here
-    int n=arr.size();
-    int max=arr.get(0);
-    int min=arr.get(0);
-    int sum=0;
-    for(int i=0;i<n;i++){
-        sum=sum+arr.get(i);
-    }
-    for(int i=0;i<n;i++)
-    {
-        if(arr.get(i)>max)
-        {
-            max=arr.get(i);
+        long totalSum = 0;
+        int min = arr.get(0);
+        int max = arr.get(0);
+        
+        for (int i = 0; i < arr.size(); i++) {
+            int num = arr.get(i);
+            totalSum += num;
+            if (num > max) {
+                max = num;
+            }
+            if (num < min) {
+                min = num;
+            }
         }
-        else if(arr.get(i)<min)
-        {
-            min=arr.get(i);
-        }
+        
+        long minSum = totalSum - max;
+        long maxSum = totalSum - min;
+        
+        System.out.println(minSum + " " + maxSum);  
     }
-    int maxsum=sum-min;
-    int minsum=sum-max;
-    System.out.println(minsum + " "+ maxsum);  
-    }
-    }
+}
 
 public class Solution {
     public static void main(String[] args) throws IOException {
@@ -48,7 +39,7 @@ public class Solution {
 
         List<Integer> arr = new ArrayList<>();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < arrTemp.length; i++) {
             int arrItem = Integer.parseInt(arrTemp[i]);
             arr.add(arrItem);
         }
