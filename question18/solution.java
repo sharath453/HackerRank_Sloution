@@ -14,7 +14,7 @@ class Result {
     // Loop through each element i in the list
     for (int m = 0; m < n; m++) {
         // Loop through each element j after i to ensure i < j
-        for (int j = i + 1; j < n; j++) {
+        for (int j = m + 1; j < n; j++) {
             // Check if the sum of the elements ar[i] and ar[j] is divisible by k
             if ((ar.get(m) + ar.get(j)) % k == 0) {
                 count++;  // Increment the count if the condition is met
