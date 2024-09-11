@@ -8,13 +8,6 @@ import java.util.regex.*;
 
 class Result {
 
-    /*
-     * Complete the 'breakingRecords' function below.
-     *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts INTEGER_ARRAY scores as parameter.
-     */
-
     public static List<Integer> breakingRecords(List<Integer> scores) {
     // Write your code here
     int maxcount=0;
