@@ -21,16 +21,16 @@ class Result {
     int mincount=0;
     int highest=scores.get(0);
     int lower=scores.get(0);
-        for(int m=1;m<scores.size();m++)
+        for(int i=1;i<scores.size();i++)
         {
-            if(scores.get(m)>highest)
+            if(scores.get(i)>highest)
             {
-                highest=scores.get(m);
+                highest=scores.get(i);
                 maxcount++;
             }
-            else if(scores.get(m)<lower)
+            else if(scores.get(i)<lower)
             {
-                lower=scores.get(m);
+                lower=scores.get(i);
                 mincount++;
             }
         }
