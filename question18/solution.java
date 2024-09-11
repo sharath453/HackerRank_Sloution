@@ -9,20 +9,18 @@ import java.util.regex.*;
 class Result {
 
    public static int divisibleSumPairs(int n, int k, List<Integer> ar) {
-    int count = 0;  // Initialize a counter for valid pairs
+    int count = 0;  
 
-    // Loop through each element i in the list
     for (int m = 0; m < n; m++) {
-        // Loop through each element j after i to ensure i < j
         for (int j = m + 1; j < n; j++) {
-            // Check if the sum of the elements ar[i] and ar[j] is divisible by k
+            
             if ((ar.get(m) + ar.get(j)) % k == 0) {
-                count++;  // Increment the count if the condition is met
+                count++;
             }
         }
     }
 
-    return count;  // Return the total count of valid pairs
+    return count; 
 }
 
 }
