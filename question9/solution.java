@@ -8,13 +8,6 @@ import java.util.regex.*;
 
 class Result {
 
-    /*
-     * Complete the 'timeConversion' function below.
-     *
-     * The function is expected to return a STRING.
-     * The function accepts STRING s as parameter.
-     */
-
 public static String timeConversion(String s) {
     // Extract period (AM/PM)
     String period = s.substring(s.length() - 2);
