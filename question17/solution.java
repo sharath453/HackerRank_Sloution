@@ -6,11 +6,11 @@ class Result {
     public static int birthday(List<Integer> s, int d, int m) {
         int count = 0;
 
-        for (int i = 0; i <= s.size() - m; i++) {
+        for (int w = 0; w <= s.size() - m; w++) {
             int sum = 0;
             
             for (int j = 0; j < m; j++) {
-                sum += s.get(i + j);
+                sum += s.get(w + j);
             }
             
             if (sum == d) {
