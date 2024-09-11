@@ -13,8 +13,8 @@ class Result {
         int min = arr.get(0);
         int max = arr.get(0);
         
-        for (int i = 0; i < arr.size(); i++) {
-            int num = arr.get(i);
+        for (int m = 0; m < arr.size(); m++) {
+            int num = arr.get(m);
             totalSum += num;
             if (num > max) {
                 max = num;
