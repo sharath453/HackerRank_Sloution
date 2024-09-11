@@ -8,11 +8,6 @@ import java.util.regex.*;
 
 class Result {
 
-    /*
-     * Complete the 'staircase' function below.
-     *
-     * The function accepts INTEGER n as parameter.
-     */
 
     public static void staircase(int n) {
     // Loop through each row
