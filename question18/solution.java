@@ -20,7 +20,7 @@ class Result {
         }
     }
 
-    return count; 
+    return count;  
 }
 
 }
