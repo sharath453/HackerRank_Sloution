@@ -3,7 +3,13 @@ import java.util.*;
 
 class Result {
 
-
+    /*
+     * Complete the 'migratoryBirds' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts INTEGER_ARRAY arr as parameter.
+     */
+    
     public static int migratoryBirds(List<Integer> arr) {
         
         int[] frequencies = new int[6]; 
