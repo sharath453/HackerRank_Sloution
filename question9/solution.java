@@ -20,7 +20,7 @@ public static String timeConversion(String s) {
 
     if (period.equals("AM")) {
         if (hour == 12) {
-            hour = 0; // Convert 12 AM to 00
+            hour = 0; 
         }
     } else {
         if (hour != 12) {
