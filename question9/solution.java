@@ -24,14 +24,13 @@ public static String timeConversion(String s) {
         }
     } else {
         if (hour != 12) {
-            hour += 12; // Convert PM hour to 24-hour format
+            hour += 12; 
         }
     }
 
-    // Format the hour in two digits
+
     String hourFormatted = String.format("%02d", hour);
 
-    // Combine hour, minute, second
     return hourFormatted + ":" + minute + ":" + second;
 }
 
