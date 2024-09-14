@@ -3,7 +3,6 @@ import java.util.*;
 
 class Result {
 
-
     
     public static int migratoryBirds(List<Integer> arr) {
         
