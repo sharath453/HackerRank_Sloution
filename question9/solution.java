@@ -18,7 +18,6 @@ public static String timeConversion(String s) {
 
     int hour = Integer.parseInt(hourStr);
 
-    // Convert hour to 24-hour format
     if (period.equals("AM")) {
         if (hour == 12) {
             hour = 0; // Convert 12 AM to 00
