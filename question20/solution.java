@@ -13,7 +13,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     public static List<Integer> reverseArray(List<Integer> a) {
-    // Write your code here
+    
     List<Integer>reverseIntegers=new ArrayList<>();
     
     for(int i=a.size()-1;i>=0;i--)
