@@ -21,9 +21,9 @@ class Result {
             temp.add(arr.get(i));
         }
         
-        for(int i=0;i<n-d;i++)
+        for(int j=0;j<n-d;j++)
         {
-            arr.set(i,arr.get(i+d));
+            arr.set(j,arr.get(j+d));
         }
         
         for (int i = 0; i < d; i++) 
