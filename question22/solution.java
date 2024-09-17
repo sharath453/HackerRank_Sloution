@@ -18,6 +18,7 @@ class Result {
         int n=arr.size();
         List<Integer>temp=new ArrayList<>();
 
+        //first for loop is to add teh dth element to temp
         for(int i=0;i<d;i++)
         {
             temp.add(arr.get(i));
