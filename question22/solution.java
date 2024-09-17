@@ -35,6 +35,8 @@ class Result {
         {
             arr.set(n - d + i, temp.get(i)); 
         }
+
+        //return the resultant array elements
         return arr;
     }
 
