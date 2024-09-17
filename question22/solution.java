@@ -24,6 +24,7 @@ class Result {
             temp.add(arr.get(i));
         }
         
+        //second loop is to shift the element right to left
         for(int i=0;i<n-d;i++)
         {
             arr.set(i,arr.get(i+d));
