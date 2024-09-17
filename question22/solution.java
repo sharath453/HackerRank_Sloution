@@ -30,6 +30,7 @@ class Result {
             arr.set(i,arr.get(i+d));
         }
         
+        //third loop is to add the temp elements to end of array
         for (int i = 0; i < d; i++) 
         {
             arr.set(n - d + i, temp.get(i)); 
