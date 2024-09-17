@@ -11,6 +11,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
+    
     public static List<Integer> rotateLeft(int d, List<Integer> arr)
     {
         int n=arr.size();
