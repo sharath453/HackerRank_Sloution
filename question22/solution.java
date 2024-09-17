@@ -14,7 +14,7 @@ class Result {
 
     public static List<Integer> rotateLeft(int d, List<Integer> arr) 
     {
-    int n=arr.size();
+        int n=arr.size();
     List<Integer>temp=new ArrayList<>();
     for(int i=0;i<d;i++)
     {
