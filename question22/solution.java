@@ -11,9 +11,10 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
-    
+
     public static List<Integer> rotateLeft(int d, List<Integer> arr)
     {
+        //write Your code here
         int n=arr.size();
         List<Integer>temp=new ArrayList<>();
 
