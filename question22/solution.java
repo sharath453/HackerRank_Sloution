@@ -30,10 +30,8 @@ class Result {
     {
         arr.set(n - d + i, temp.get(i)); 
     }
-    
+
     return arr;
-
-
     }
 
 }
