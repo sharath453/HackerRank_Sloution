@@ -12,26 +12,27 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    public static List<Integer> rotateLeft(int d, List<Integer> arr) {
+    public static List<Integer> rotateLeft(int d, List<Integer> arr)
+    {
         int n=arr.size();
         List<Integer>temp=new ArrayList<>();
 
-    for(int i=0;i<d;i++)
-    {
-        temp.add(arr.get(i));
-    }
-    
-    for(int i=0;i<n-d;i++)
-    {
-        arr.set(i,arr.get(i+d));
-    }
-    
-    for (int i = 0; i < d; i++) 
-    {
-        arr.set(n - d + i, temp.get(i)); 
-    }
+        for(int i=0;i<d;i++)
+        {
+            temp.add(arr.get(i));
+        }
+        
+        for(int i=0;i<n-d;i++)
+        {
+            arr.set(i,arr.get(i+d));
+        }
+        
+        for (int i = 0; i < d; i++) 
+        {
+            arr.set(n - d + i, temp.get(i)); 
+        }
 
-    return arr;
+        return arr;
     }
 
 }
