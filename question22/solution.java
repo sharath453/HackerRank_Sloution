@@ -36,12 +36,11 @@ class Result {
             arr.set(n - d + i, temp.get(i)); 
         }
 
-        //return the resultant array elements
+        //return the resultant array elements   
         return arr;
     }
 
 }
-
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
