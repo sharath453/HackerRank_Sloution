@@ -40,14 +40,17 @@ public class Solution {
         }
     }
 
-    static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data) {
+    static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data) 
+    {
         SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
+        
         if(head==null)
         {
             return newNode;
         }
         
         SinglyLinkedListNode current=head;
+
         while(current.next!=null)
         {
             current=current.next;
@@ -75,8 +78,6 @@ public class Solution {
 
           llist.head = llist_head;
         }
-
-
 
         printSinglyLinkedList(llist.head, "\n", bufferedWriter);
         bufferedWriter.newLine();
