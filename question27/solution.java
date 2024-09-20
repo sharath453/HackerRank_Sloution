@@ -11,7 +11,7 @@ class Solution {
                 long x = sc.nextLong();
                 System.out.println(x + " can be fitted in:");
 
-                // Check if the value fits in a byte
+              
                 if (x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE) {
                     System.out.println("* byte");
                 }
