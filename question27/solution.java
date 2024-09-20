@@ -27,8 +27,8 @@ class Solution {
                 if (x >= Long.MIN_VALUE && x <= Long.MAX_VALUE) {
                     System.out.println("* long");
                 }
-            } catch (Exception e) {
-
+            } 
+            catch (Exception e) {
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
         }
