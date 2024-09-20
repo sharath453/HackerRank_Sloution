@@ -19,7 +19,7 @@ class Solution {
                 if (x >= Short.MIN_VALUE && x <= Short.MAX_VALUE) {
                     System.out.println("* short");
                 }
-                // Check if the value fits in an int
+                
                 if (x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE) {
                     System.out.println("* int");
                 }
