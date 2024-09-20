@@ -23,7 +23,7 @@ class Solution {
                 if (x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE) {
                     System.out.println("* int");
                 }
-                // Check if the value fits in a long
+                
                 if (x >= Long.MIN_VALUE && x <= Long.MAX_VALUE) {
                     System.out.println("* long");
                 }
