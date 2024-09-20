@@ -28,7 +28,7 @@ class Solution {
                     System.out.println("* long");
                 }
             } catch (Exception e) {
-                // If the number is too large to be read as a long, print the error message
+                
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
         }
