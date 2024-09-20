@@ -10,7 +10,6 @@ class Solution {
             try {
                 long x = sc.nextLong();
                 System.out.println(x + " can be fitted in:");
-
               
                 if (x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE) {
                     System.out.println("* byte");
@@ -28,7 +27,7 @@ class Solution {
                     System.out.println("* long");
                 }
             } catch (Exception e) {
-                
+
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
         }
