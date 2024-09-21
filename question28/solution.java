@@ -82,7 +82,6 @@ int top = stack.peek(); // Returns the top element without removing it
 5. isEmpty()
 Description: Tests if the stack is empty.
 Example:
-
 if (stack.isEmpty()) {
     System.out.println("The stack is empty");
 }
