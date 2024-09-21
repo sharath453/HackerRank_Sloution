@@ -2,8 +2,9 @@ import java.io.*;
 import java.util.*;
 
 public class Solution {
-    
+    // create a stack to push the char
     private Stack<Character> stacke=new Stack<>();
+    
     private Queue<Character> newqueue=new LinkedList<>();
     
     void pushCharacter(char c){
