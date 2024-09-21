@@ -4,7 +4,7 @@ import java.util.*;
 public class Solution {
     // create a stack to push the char
     private Stack<Character> stacke=new Stack<>();
-    
+    //create a queue to add the char to it 
     private Queue<Character> newqueue=new LinkedList<>();
     
     void pushCharacter(char c){
