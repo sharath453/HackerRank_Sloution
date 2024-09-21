@@ -64,8 +64,7 @@ public class Solution {
 }
 
 
-1. push 
-push(E item)
+1. push(E item)
 Description: Pushes an item onto the top of the stack.
 Example:
 stack.push(10); Adds 10 to the top of the stack
@@ -74,8 +73,6 @@ stack.push(10); Adds 10 to the top of the stack
 
 Description: Removes the object at the top of the stack and returns it.
 Example:
-java
-Copy code
 int top = stack.pop(); // Removes and returns the top element
 
 3.peek()
