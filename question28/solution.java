@@ -18,6 +18,7 @@ public class Solution {
         newqueue.add(ch);
     }
     
+    //method to pop the element from the stack
     public char popCharacter()
     {
         return stacke.pop();
