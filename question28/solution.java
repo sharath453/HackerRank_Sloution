@@ -87,7 +87,6 @@ if (stack.isEmpty()) {
 }
 
 6. search(Object o)
-
 Description: Returns the 1-based position of an object on the stack. If the object is not found, it returns -1.
 Example:
 int position = stack.search(10); // Returns the position of 10 in the stack
