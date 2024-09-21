@@ -70,7 +70,6 @@ Example:
 stack.push(10); Adds 10 to the top of the stack
 
 2. pop()
-
 Description: Removes the object at the top of the stack and returns it.
 Example:
 int top = stack.pop(); // Removes and returns the top element
