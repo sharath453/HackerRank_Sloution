@@ -104,11 +104,6 @@ Description: Removes all elements from the stack.
 Example:
 
 stack.clear(); // Empties the stack
-contains(Object o)
-
-Description: Checks if the stack contains the specified element.
-Example:
-boolean exists = stack.contains(10); // Checks if 10 is in the stack
 
 9. toArray()
 
@@ -124,3 +119,9 @@ Iterator<Integer> it = stack.iterator();
 while (it.hasNext()) {
     System.out.println(it.next());
 }
+
+11. contains(Object o)
+
+Description: Checks if the stack contains the specified element.
+Example:
+boolean exists = stack.contains(10); // Checks if 10 is in the stack
