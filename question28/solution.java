@@ -80,7 +80,6 @@ Example:
 int top = stack.peek(); // Returns the top element without removing it
 
 5. isEmpty()
-
 Description: Tests if the stack is empty.
 Example:
 
