@@ -77,8 +77,6 @@ int top = stack.pop(); // Removes and returns the top element
 3.peek()
 Description: Looks at the object at the top of the stack without removing it.
 Example:
-java
-Copy code
 int top = stack.peek(); // Returns the top element without removing it
 
 5. isEmpty()
