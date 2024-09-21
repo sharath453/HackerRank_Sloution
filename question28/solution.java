@@ -13,6 +13,7 @@ public class Solution {
      stacke.push(c);   
     }
     
+    //method to add the char to queue
     void enqueueCharacter(char ch){
         newqueue.add(ch);
     }
