@@ -4,9 +4,11 @@ import java.util.*;
 public class Solution {
     // create a stack to push the char
     private Stack<Character> stacke=new Stack<>();
+    
     //create a queue to add the char to it 
     private Queue<Character> newqueue=new LinkedList<>();
     
+    //method to push the char to stack
     void pushCharacter(char c){
      stacke.push(c);   
     }
