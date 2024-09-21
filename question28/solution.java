@@ -94,7 +94,6 @@ Additional Methods Inherited from Vector (Superclass)
 Since Stack extends Vector, it inherits several additional methods:
 
 7. size()
-
 Description: Returns the number of elements in the stack.
 Example:
 int count = stack.size(); // Returns the number of elements in the stack
