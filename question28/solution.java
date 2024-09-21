@@ -106,13 +106,11 @@ Example:
 stack.clear(); // Empties the stack
 
 9. toArray()
-
 Description: Returns an array containing all elements in the stack.
 Example:
 Object[] elements = stack.toArray(); // Converts stack elements to an array
 
 10. iterator()
-
 Description: Returns an iterator over the elements in the stack.
 Example:
 Iterator<Integer> it = stack.iterator(); 
