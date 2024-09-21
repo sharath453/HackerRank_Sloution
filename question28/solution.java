@@ -24,6 +24,7 @@ public class Solution {
         return stacke.pop();
     }
     
+    //method to remove element from the queue
      public char dequeueCharacter()
     {
         return newqueue.remove();
