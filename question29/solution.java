@@ -10,9 +10,8 @@ class Solution {
         for(int i = 0; i < t; i++){
             int a = in.nextInt();  
             int b = in.nextInt();  
-            int n = in.nextInt();  // The number of terms in the series
+            int n = in.nextInt(); 
             
-            // Start building the series for each query
             int currentValue = a;  // Initialize current value with 'a'
             
             // Create a StringBuilder to store the series
