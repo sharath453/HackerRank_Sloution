@@ -30,6 +30,6 @@ class Solution {
             System.out.println(series.toString().trim());
         }
         
-        in.close();  // Close the scanner
+        in.close();
     }
 }
