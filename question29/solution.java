@@ -19,7 +19,6 @@ class Solution {
             
             // Generate each term of the series
             for(int j = 0; j < n; j++) {
-                // Add the 2^j * b value to the current value
                 currentValue += b * (1 << j);  // (1 << j) is same as Math.pow(2, j)
                 // Append the current value to the series
                 series.append(currentValue).append(" ");
