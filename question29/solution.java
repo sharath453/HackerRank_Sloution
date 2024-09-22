@@ -8,7 +8,7 @@ class Solution {
         
         // Loop through each query
         for(int i = 0; i < t; i++){
-            int a = in.nextInt();  // The initial value 'a'
+            int a = in.nextInt();  
             int b = in.nextInt();  // The multiplier value 'b'
             int n = in.nextInt();  // The number of terms in the series
             
