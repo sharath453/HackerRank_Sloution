@@ -12,7 +12,7 @@ class Solution {
             int b = in.nextInt();  
             int n = in.nextInt(); 
             
-            int currentValue = a;  // Initialize current value with 'a'
+            int currentValue = a;
             
             // Create a StringBuilder to store the series
             StringBuilder series = new StringBuilder();
