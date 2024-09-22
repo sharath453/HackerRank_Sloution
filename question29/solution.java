@@ -19,7 +19,7 @@ class Solution {
             
             // Generate each term of the series
             for(int j = 0; j < n; j++) {
-                currentValue += b * (1 << j);  // (1 << j) is same as Math.pow(2, j)
+                currentValue += b * (1 << j);
                 // Append the current value to the series
                 series.append(currentValue).append(" ");
             }
