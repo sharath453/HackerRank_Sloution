@@ -23,8 +23,6 @@ class Solution {
                 // Append the current value to the series
                 series.append(currentValue).append(" ");
             }
-            
-            // Print the generated series (remove trailing space using trim)
             System.out.println(series.toString().trim());
         }
         
