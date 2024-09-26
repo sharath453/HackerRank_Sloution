@@ -10,6 +10,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
+
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -32,7 +33,7 @@ public class Solution {
             numberOfSwaps++;
         }
     } 
-      
+
     // If no elements were swapped during a traversal, array is sorted
     if (numberOfSwaps == 0) {
         break;
