@@ -6,7 +6,8 @@ class Solution {
     {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt(); 
-        for (int i = 0; i < t; i++) {
+        for (int i = 0; i < t; i++) 
+        {
             try {
                 long x = sc.nextLong();
                 System.out.println(x + " can be fitted in:");
