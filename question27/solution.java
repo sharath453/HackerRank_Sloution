@@ -6,7 +6,6 @@ class Solution {
     {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt(); 
-
         for (int i = 0; i < t; i++) {
             try {
                 long x = sc.nextLong();
@@ -28,7 +27,7 @@ class Solution {
                     System.out.println("* long");
                 }
             } 
-            
+
             catch (Exception e) {
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
