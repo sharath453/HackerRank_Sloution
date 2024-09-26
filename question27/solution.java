@@ -29,7 +29,8 @@ class Solution {
                 }
             } 
 
-            catch (Exception e) {
+            catch (Exception e) 
+            {
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
         }
