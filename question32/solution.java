@@ -31,8 +31,7 @@ public class Solution {
                 a.set(j + 1, temp);
             numberOfSwaps++;
         }
-    }
-    
+    }   
     // If no elements were swapped during a traversal, array is sorted
     if (numberOfSwaps == 0) {
         break;
